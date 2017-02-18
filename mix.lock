@@ -1,0 +1,2 @@
+%{"alexa": {:hex, :alexa, "0.1.15", "d873c39e75b4daa8bd4f4778979e6534c9ae1fffb33cdaf0973792358bdef767", [:mix], [{:poison, "~> 2.0", [hex: :poison, optional: false]}]},
+  "poison": {:hex, :poison, "2.2.0", "4763b69a8a77bd77d26f477d196428b741261a761257ff1cf92753a0d4d24a63", [:mix], []}}

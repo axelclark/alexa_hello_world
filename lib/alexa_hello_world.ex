@@ -3,16 +3,13 @@ defmodule AlexaHelloWorld do
   Documentation for AlexaHelloWorld.
   """
 
-  @doc """
-  Hello world.
+  use Alexa.Skill, ap_id: "123"
 
-  ## Examples
+  def handle_intent("SayHello", request, response) do
+    response |> say("Hello World!")
+  end
 
-      iex> AlexaHelloWorld.hello
-      :world
-
-  """
-  def hello do
-    :world
+  def handle_intent("WhatUp", request, response) do
+    response |> say("That's what!")
   end
 end
