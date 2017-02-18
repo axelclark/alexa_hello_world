@@ -8,8 +8,4 @@ defmodule AlexaHelloWorld do
   def handle_intent("SayHello", request, response) do
     response |> say("Hello World!")
   end
-
-  def handle_intent("WhatUp", request, response) do
-    response |> say("That's what!")
-  end
 end
